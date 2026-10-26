@@ -1,0 +1,13 @@
+raw/
+raw_t61/
+db/
+out/*.tgz
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+dbt/.user.yml
+__pycache__/
+*.duckdb
+*.duckdb.wal
+.DS_Store
+scripts/q.py
