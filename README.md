@@ -4,7 +4,7 @@ A small, end-to-end project on one idea: **a dashboard should only show numbers 
 
 It uses open HESA Student data (England, Scotland, Wales and Northern Ireland) and covers five metrics: HE enrolments, full-time share, postgraduate share, non-UK domicile share and first-class degree rate.
 
-**Dashboard:** _link to be added once published on Tableau Public_
+**Dashboard:** [UK Higher Education: Trusted Metrics on Tableau Public](https://public.tableau.com/views/UKHigherEducationTrustedMetrics/Dashboard1)
 
 _Screenshot to be added from the published dashboard._
 
