@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: metric_values
+    description: >
+      The five governed metrics. Each row is one metric for one academic year and geography.
+      Definitions live in the metric_definitions seed.
+    data_tests:
+      - unique_combination:
+          arguments: {columns: [metric_name, academic_year, geography]}
+    columns:
+      - name: metric_name
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('metric_definitions'), field: metric_name}
+      - name: value
+        data_tests: [not_null, non_negative]

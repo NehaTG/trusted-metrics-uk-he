@@ -1,0 +1,29 @@
+name: hesa_trusted_metrics
+version: "1.0.0"
+config-version: 2
+profile: hesa
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+models:
+  hesa_trusted_metrics:
+    staging:
+      +materialized: view
+      +schema: staging
+    marts:
+      +materialized: table
+      +schema: marts
+    metrics:
+      +materialized: table
+      +schema: metrics
+
+seeds:
+  hesa_trusted_metrics:
+    +schema: reference
+
+data_tests:
+  +store_failures: true
+  +schema: test_failures

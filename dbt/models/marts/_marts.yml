@@ -1,0 +1,77 @@
+version: 2
+
+models:
+  - name: fct_he_enrolments
+    description: >
+      Higher education enrolments at detail grain only (year x country x level x mode).
+      No total or 'All' rows, so SUM is safe.
+    data_tests:
+      - unique_combination:
+          arguments: {columns: [academic_year, country, level, mode]}
+    columns:
+      - name: enrolments
+        data_tests: [not_null, non_negative]
+      - name: country
+        data_tests:
+          - accepted_values:
+              arguments: {values: [England, Northern Ireland, Scotland, Wales]}
+      - name: level
+        data_tests:
+          - accepted_values:
+              arguments: {values: [Postgraduate (level not split), First degree, Other undergraduate]}
+      - name: mode
+        data_tests:
+          - accepted_values:
+              arguments: {values: [Full-time, Part-time]}
+
+  - name: dim_provider
+    description: One row per UK higher education provider (UKPRN).
+    columns:
+      - name: ukprn
+        data_tests: [unique, not_null]
+      - name: provider_name
+        data_tests: [not_null]
+
+  - name: fct_provider_enrolments
+    description: Provider enrolments at detail grain (provider x level x mode), 2023/24.
+    data_tests:
+      - unique_combination:
+          arguments: {columns: [ukprn, level, mode]}
+    columns:
+      - name: ukprn
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_provider'), field: ukprn}
+      - name: level
+        data_tests:
+          - accepted_values:
+              arguments: {values: [First degree, Other undergraduate, Postgraduate taught, Postgraduate research]}
+      - name: mode
+        data_tests:
+          - accepted_values:
+              arguments: {values: [Full-time, Part-time]}
+      - name: enrolments
+        data_tests: [not_null, non_negative]
+
+  - name: fct_domicile
+    description: Enrolments by domicile group at detail grain.
+    data_tests:
+      - unique_combination:
+          arguments: {columns: [academic_year, domicile_group]}
+    columns:
+      - name: domicile_group
+        data_tests:
+          - accepted_values:
+              arguments: {values: [UK, Non-UK, Not known]}
+      - name: enrolments
+        data_tests: [not_null, non_negative]
+
+  - name: fct_first_degree_classification
+    description: First degree qualifiers by classification at detail grain.
+    data_tests:
+      - unique_combination:
+          arguments: {columns: [academic_year, classification]}
+    columns:
+      - name: qualifiers
+        data_tests: [not_null, non_negative]

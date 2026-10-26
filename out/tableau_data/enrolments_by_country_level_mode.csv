@@ -1,0 +1,121 @@
+academic_year,country,level,level_group,mode,enrolments
+2019/20,England,First degree,Undergraduate,Full-time,1292625
+2019/20,England,First degree,Undergraduate,Part-time,147635
+2019/20,England,Other undergraduate,Undergraduate,Full-time,49435
+2019/20,England,Other undergraduate,Undergraduate,Part-time,56620
+2019/20,England,Postgraduate (level not split),Postgraduate,Full-time,334515
+2019/20,England,Postgraduate (level not split),Postgraduate,Part-time,195880
+2019/20,Northern Ireland,First degree,Undergraduate,Full-time,31505
+2019/20,Northern Ireland,First degree,Undergraduate,Part-time,6355
+2019/20,Northern Ireland,Other undergraduate,Undergraduate,Full-time,350
+2019/20,Northern Ireland,Other undergraduate,Undergraduate,Part-time,4155
+2019/20,Northern Ireland,Postgraduate (level not split),Postgraduate,Full-time,6615
+2019/20,Northern Ireland,Postgraduate (level not split),Postgraduate,Part-time,7340
+2019/20,Scotland,First degree,Undergraduate,Full-time,151150
+2019/20,Scotland,First degree,Undergraduate,Part-time,20415
+2019/20,Scotland,Other undergraduate,Undergraduate,Full-time,4480
+2019/20,Scotland,Other undergraduate,Undergraduate,Part-time,15480
+2019/20,Scotland,Postgraduate (level not split),Postgraduate,Full-time,45170
+2019/20,Scotland,Postgraduate (level not split),Postgraduate,Part-time,23790
+2019/20,Wales,First degree,Undergraduate,Full-time,74665
+2019/20,Wales,First degree,Undergraduate,Part-time,11245
+2019/20,Wales,Other undergraduate,Undergraduate,Full-time,7005
+2019/20,Wales,Other undergraduate,Undergraduate,Part-time,12635
+2019/20,Wales,Postgraduate (level not split),Postgraduate,Full-time,17965
+2019/20,Wales,Postgraduate (level not split),Postgraduate,Part-time,11265
+2020/21,England,First degree,Undergraduate,Full-time,1374990
+2020/21,England,First degree,Undergraduate,Part-time,161310
+2020/21,England,Other undergraduate,Undergraduate,Full-time,48900
+2020/21,England,Other undergraduate,Undergraduate,Part-time,63160
+2020/21,England,Postgraduate (level not split),Postgraduate,Full-time,385475
+2020/21,England,Postgraduate (level not split),Postgraduate,Part-time,224155
+2020/21,Northern Ireland,First degree,Undergraduate,Full-time,34120
+2020/21,Northern Ireland,First degree,Undergraduate,Part-time,6495
+2020/21,Northern Ireland,Other undergraduate,Undergraduate,Full-time,235
+2020/21,Northern Ireland,Other undergraduate,Undergraduate,Part-time,2430
+2020/21,Northern Ireland,Postgraduate (level not split),Postgraduate,Full-time,9670
+2020/21,Northern Ireland,Postgraduate (level not split),Postgraduate,Part-time,8225
+2020/21,Scotland,First degree,Undergraduate,Full-time,159050
+2020/21,Scotland,First degree,Undergraduate,Part-time,21205
+2020/21,Scotland,Other undergraduate,Undergraduate,Full-time,4900
+2020/21,Scotland,Other undergraduate,Undergraduate,Part-time,15805
+2020/21,Scotland,Postgraduate (level not split),Postgraduate,Full-time,53195
+2020/21,Scotland,Postgraduate (level not split),Postgraduate,Part-time,28720
+2020/21,Wales,First degree,Undergraduate,Full-time,76890
+2020/21,Wales,First degree,Undergraduate,Part-time,13605
+2020/21,Wales,Other undergraduate,Undergraduate,Full-time,7450
+2020/21,Wales,Other undergraduate,Undergraduate,Part-time,11845
+2020/21,Wales,Postgraduate (level not split),Postgraduate,Full-time,20395
+2020/21,Wales,Postgraduate (level not split),Postgraduate,Part-time,13675
+2021/22,England,First degree,Undergraduate,Full-time,1396200
+2021/22,England,First degree,Undergraduate,Part-time,171660
+2021/22,England,Other undergraduate,Undergraduate,Full-time,47420
+2021/22,England,Other undergraduate,Undergraduate,Part-time,62765
+2021/22,England,Postgraduate (level not split),Postgraduate,Full-time,437085
+2021/22,England,Postgraduate (level not split),Postgraduate,Part-time,227770
+2021/22,Northern Ireland,First degree,Undergraduate,Full-time,34255
+2021/22,Northern Ireland,First degree,Undergraduate,Part-time,6585
+2021/22,Northern Ireland,Other undergraduate,Undergraduate,Full-time,255
+2021/22,Northern Ireland,Other undergraduate,Undergraduate,Part-time,3495
+2021/22,Northern Ireland,Postgraduate (level not split),Postgraduate,Full-time,11655
+2021/22,Northern Ireland,Postgraduate (level not split),Postgraduate,Part-time,8430
+2021/22,Scotland,First degree,Undergraduate,Full-time,162050
+2021/22,Scotland,First degree,Undergraduate,Part-time,21195
+2021/22,Scotland,Other undergraduate,Undergraduate,Full-time,4150
+2021/22,Scotland,Other undergraduate,Undergraduate,Part-time,17070
+2021/22,Scotland,Postgraduate (level not split),Postgraduate,Full-time,65875
+2021/22,Scotland,Postgraduate (level not split),Postgraduate,Part-time,30890
+2021/22,Wales,First degree,Undergraduate,Full-time,77565
+2021/22,Wales,First degree,Undergraduate,Part-time,14560
+2021/22,Wales,Other undergraduate,Undergraduate,Full-time,5960
+2021/22,Wales,Other undergraduate,Undergraduate,Part-time,11165
+2021/22,Wales,Postgraduate (level not split),Postgraduate,Full-time,23790
+2021/22,Wales,Postgraduate (level not split),Postgraduate,Part-time,14870
+2022/23,England,First degree,Undergraduate,Full-time,1411035
+2022/23,England,First degree,Undergraduate,Part-time,167525
+2022/23,England,Other undergraduate,Undergraduate,Full-time,53915
+2022/23,England,Other undergraduate,Undergraduate,Part-time,65425
+2022/23,England,Postgraduate (level not split),Postgraduate,Full-time,503020
+2022/23,England,Postgraduate (level not split),Postgraduate,Part-time,222090
+2022/23,Northern Ireland,First degree,Undergraduate,Full-time,34515
+2022/23,Northern Ireland,First degree,Undergraduate,Part-time,6295
+2022/23,Northern Ireland,Other undergraduate,Undergraduate,Full-time,345
+2022/23,Northern Ireland,Other undergraduate,Undergraduate,Part-time,3980
+2022/23,Northern Ireland,Postgraduate (level not split),Postgraduate,Full-time,14445
+2022/23,Northern Ireland,Postgraduate (level not split),Postgraduate,Part-time,7940
+2022/23,Scotland,First degree,Undergraduate,Full-time,157610
+2022/23,Scotland,First degree,Undergraduate,Part-time,19445
+2022/23,Scotland,Other undergraduate,Undergraduate,Full-time,3515
+2022/23,Scotland,Other undergraduate,Undergraduate,Part-time,18175
+2022/23,Scotland,Postgraduate (level not split),Postgraduate,Full-time,66885
+2022/23,Scotland,Postgraduate (level not split),Postgraduate,Part-time,26615
+2022/23,Wales,First degree,Undergraduate,Full-time,77190
+2022/23,Wales,First degree,Undergraduate,Part-time,14715
+2022/23,Wales,Other undergraduate,Undergraduate,Full-time,6750
+2022/23,Wales,Other undergraduate,Undergraduate,Part-time,11995
+2022/23,Wales,Postgraduate (level not split),Postgraduate,Full-time,27345
+2022/23,Wales,Postgraduate (level not split),Postgraduate,Part-time,15285
+2023/24,England,First degree,Undergraduate,Full-time,1428830
+2023/24,England,First degree,Undergraduate,Part-time,164225
+2023/24,England,Other undergraduate,Undergraduate,Full-time,52255
+2023/24,England,Other undergraduate,Undergraduate,Part-time,60520
+2023/24,England,Postgraduate (level not split),Postgraduate,Full-time,481975
+2023/24,England,Postgraduate (level not split),Postgraduate,Part-time,220610
+2023/24,Northern Ireland,First degree,Undergraduate,Full-time,35430
+2023/24,Northern Ireland,First degree,Undergraduate,Part-time,5890
+2023/24,Northern Ireland,Other undergraduate,Undergraduate,Full-time,305
+2023/24,Northern Ireland,Other undergraduate,Undergraduate,Part-time,1975
+2023/24,Northern Ireland,Postgraduate (level not split),Postgraduate,Full-time,13605
+2023/24,Northern Ireland,Postgraduate (level not split),Postgraduate,Part-time,6675
+2023/24,Scotland,First degree,Undergraduate,Full-time,155160
+2023/24,Scotland,First degree,Undergraduate,Part-time,18085
+2023/24,Scotland,Other undergraduate,Undergraduate,Full-time,3635
+2023/24,Scotland,Other undergraduate,Undergraduate,Part-time,18890
+2023/24,Scotland,Postgraduate (level not split),Postgraduate,Full-time,57105
+2023/24,Scotland,Postgraduate (level not split),Postgraduate,Part-time,28580
+2023/24,Wales,First degree,Undergraduate,Full-time,75740
+2023/24,Wales,First degree,Undergraduate,Part-time,15335
+2023/24,Wales,Other undergraduate,Undergraduate,Full-time,7565
+2023/24,Wales,Other undergraduate,Undergraduate,Part-time,11695
+2023/24,Wales,Postgraduate (level not split),Postgraduate,Full-time,25665
+2023/24,Wales,Postgraduate (level not split),Postgraduate,Part-time,13630

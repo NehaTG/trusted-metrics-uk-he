@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: hesa_raw
+    description: >
+      HESA open data exactly as published (Creative Commons Attribution 4.0).
+      Loaded by scripts/load_raw.py with every column kept as text.
+    schema: raw
+    tables:
+      - name: file_meta
+        description: One row per source file, with the stated totals and collection record.
+      - name: figure_04
+        description: Enrolments by level, provider type, mode and country, 2019/20 to 2023/24.
+        columns:
+          - name: number
+            data_tests: [not_null]
+      - name: figure_07
+        description: Enrolments by provider, 2023/24 only.
+        columns:
+          - name: number
+            data_tests: [not_null]
+      - name: figure_09
+        description: Enrolments by permanent address, 2019/20 to 2023/24.
+        columns:
+          - name: number
+            data_tests: [not_null]
+      - name: figure_16
+        description: First degree classification, 2019/20 to 2023/24.

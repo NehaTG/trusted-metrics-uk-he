@@ -1,0 +1,80 @@
+version: 2
+
+models:
+  - name: stg_hesa__f04_enrolments
+    description: Figure 4 with trimmed text, integer counts and a detail/aggregate tag on every row.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [academic_year, level_label, provider_type, mode_of_study, country]
+    columns:
+      - name: academic_year
+        data_tests:
+          - matches_pattern:
+              arguments: {pattern: '^[0-9]{4}/[0-9]{2}$'}
+      - name: level_label
+        data_tests: [is_trimmed]
+      - name: country
+        data_tests: [is_trimmed]
+      - name: enrolments
+        data_tests:
+          - not_null
+          - non_negative
+          - multiple_of:
+              arguments: {n: 5}
+      - name: row_grain
+        data_tests:
+          - accepted_values:
+              arguments: {values: [detail, aggregate]}
+
+  - name: stg_hesa__f07_provider_enrolments
+    description: Figure 7 with trimmed text, integer counts and the grand-total row flagged.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [ukprn, level_label, mode_of_study, country, region, permanent_address]
+    columns:
+      - name: provider_name
+        data_tests: [is_trimmed]
+      - name: enrolments
+        data_tests:
+          - not_null
+          - non_negative
+          - multiple_of:
+              arguments: {n: 5}
+
+  - name: stg_hesa__f09_domicile
+    description: Figure 9 with trimmed text and integer counts.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [academic_year, permanent_address, entrant_marker, level_label, mode_of_study, country]
+    columns:
+      - name: country
+        data_tests: [is_trimmed]
+      - name: enrolments
+        data_tests:
+          - not_null
+          - non_negative
+          - multiple_of:
+              arguments: {n: 5}
+
+  - name: stg_hesa__f16_classification
+    description: Figure 16 with trimmed text and integer counts.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [academic_year, mode_of_study, sex, country, classification]
+    columns:
+      - name: qualifiers
+        data_tests:
+          - not_null
+          - non_negative
+          - multiple_of:
+              arguments: {n: 5}
+
+  - name: stg_hesa__published_totals
+    description: Totals each source file states in its own header, by source table and academic year.
+    columns:
+      - name: published_total
+        data_tests: [not_null, non_negative]

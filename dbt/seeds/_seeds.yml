@@ -1,0 +1,24 @@
+version: 2
+
+seeds:
+  - name: level_of_study_map
+    description: One governed mapping from each file's level-of-study label to a standard level.
+    data_tests:
+      - unique_combination:
+          arguments: {columns: [source_file, raw_label]}
+    columns:
+      - name: standard_level
+        data_tests: [not_null]
+      - name: label_grain
+        data_tests:
+          - accepted_values:
+              arguments: {values: [detail, aggregate]}
+  - name: metric_definitions
+    description: The written definition, formula, source and caveat for each governed metric.
+    columns:
+      - name: metric_name
+        data_tests: [unique, not_null]
+      - name: definition
+        data_tests: [not_null]
+      - name: formula
+        data_tests: [not_null]
