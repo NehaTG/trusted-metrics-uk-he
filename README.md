@@ -6,7 +6,7 @@ It uses open HESA Student data (England, Scotland, Wales and Northern Ireland) a
 
 **Dashboard:** [UK Higher Education: Trusted Metrics on Tableau Public](https://public.tableau.com/views/UKHigherEducationTrustedMetrics/Dashboard1)
 
-![Dashboard screenshot](docs/dashboard.png)
+![Dashboard screenshot](docs/Dashboard 1-2.png)
 
 ## What is in here
 
